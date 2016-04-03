@@ -79,7 +79,7 @@
                 display: block;
                 width: 48px;
                 height: 22px;
-                border-radius: 3px;
+                /*border-radius: 3px;*/
                 background-color: #33CCCC;
                 -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
                 box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
@@ -88,6 +88,11 @@
                 -ms-transition: left 0.15s ease-out;
                 -o-transition: left 0.15s ease-out;
                 transition: left 0.15s ease-out;
+            }
+            .lang_switch_border{
+                border: 1px solid #86CCD4;
+                padding-left: 5px;
+                padding-right: 5px;
             }
 
 
@@ -125,7 +130,7 @@
                 <div class="logo">
                     <h3 style="color: #FFF"><i class="fa fa-phone"></i> 01712345678</h3>
                 </div>
-                <div class="header-right">
+                <div class="header-right lang_switch_border">
                     <div class="top-menu">
                         <ul>
                             <li class="switch">
@@ -138,8 +143,8 @@
                         </ul>
                     </div>
                 </div>
-                
-                
+
+
                 <div class="header-right">
                     <div class="top-menu">
                         <ul>
@@ -147,8 +152,8 @@
                         </ul>
                     </div>
                 </div>
-                
-                
+
+
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -161,8 +166,9 @@
                 <li>
                     <img src="images/Banner.png" alt="">
                     <div class="banner-info">
-                        <h3>FASHIONS</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.</p>
+                        <!--<img src="images/logo.png" class="img-responsive pu">-->
+<!--                        <h3>FASHIONS</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.</p>-->
                     </div>
                 </li>
             </ul>
@@ -184,7 +190,7 @@
     <!---->
 
 
-    
+
 
 
     <!-- Latest compiled and minified JavaScript -->
