@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arimo" />
 
         <style>
+            // English <-> Bengali
             .switch {
                 position: relative;
                 height: 26px;
@@ -95,6 +96,7 @@
                 padding-right: 5px;
             }
 
+        // English <-> Bengali
 
 
             .search-box {
@@ -242,7 +244,7 @@
 
     <div class="footer">
         <div class="container">
-            <p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://w3layouts.com">  W3layouts</a></p>
+            <p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://agencydelta.com">  Agency Delta</a></p>
             <div class="social">
                 <a href="#"><span class="icon1"></span></a>
                 <a href="#"><span class="icon2"></span></a>
