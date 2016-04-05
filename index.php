@@ -3,7 +3,8 @@
     <head>
         <link href="resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
         <script src="resources/js/jquery.min.js"></script>
-        <link href="resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <script src="resources/js/new_drugbd.js"></script>
+        <link href="resources/css/new_drugdb.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -12,151 +13,6 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arimo" />
 
         <style>
-            // English <-> Bengali
-            .switch {
-                position: relative;
-                height: 26px;
-                width: 100px;
-                /*margin: 12px auto;*/
-                background: rgba(0, 0, 0, 0.25);
-                /*border-radius: 3px;*/
-                -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
-                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
-            }
-
-            .switch-label {
-                position: relative;
-                z-index: 2;
-                float: left;
-                width: 50px;
-                line-height: 26px;
-                font-size: 11px;
-                color: rgba(255, 255, 255, 0.35);
-                text-align: center;
-                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
-                cursor: pointer;
-            }
-            .switch-label:active {
-                font-weight: bold;
-            }
-
-            .switch-label-off {
-                padding-left: 2px;
-            }
-
-            .switch-label-on {
-                padding-right: 2px;
-            }
-
-
-            .switch-input {
-                display: none;
-            }
-            .switch-input:checked + .switch-label {
-                font-weight: bold;
-                color: #FFFFFF;
-                text-shadow: 0 1px rgba(255, 255, 255, 0.25);
-                -webkit-transition: 0.15s ease-out;
-                -moz-transition: 0.15s ease-out;
-                -ms-transition: 0.15s ease-out;
-                -o-transition: 0.15s ease-out;
-                transition: 0.15s ease-out;
-                -webkit-transition-property: color, text-shadow;
-                -moz-transition-property: color, text-shadow;
-                -ms-transition-property: color, text-shadow;
-                -o-transition-property: color, text-shadow;
-                transition-property: color, text-shadow;
-            }
-            .switch-input:checked + .switch-label-on ~ .switch-selection {
-                left: 50px;
-                /* Note: left: 50%; doesn't transition in WebKit */
-            }
-
-            .switch-selection {
-                position: absolute;
-                z-index: 1;
-                top: 2px;
-                left: 2px;
-                display: block;
-                width: 48px;
-                height: 22px;
-                /*border-radius: 3px;*/
-                background-color: #33CCCC;
-                -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
-                box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
-                -webkit-transition: left 0.15s ease-out;
-                -moz-transition: left 0.15s ease-out;
-                -ms-transition: left 0.15s ease-out;
-                -o-transition: left 0.15s ease-out;
-                transition: left 0.15s ease-out;
-            }
-            .lang_switch_border{
-                border: 1px solid #86CCD4;
-                padding-left: 5px;
-                padding-right: 5px;
-            }
-
-            // English <-> Bengali
-
-
-            .search-box {
-                position: relative;
-                height: 40px; /* Define the search box height and width here */
-                width: 100%;
-            }
-
-            .search-box .search-input {
-                background-color: rgba(77, 176, 183, 0.9);
-                box-sizing: border-box;
-                width: 100%;
-                height: 100%;
-                padding: 0 50px 0 10px;
-                border: solid 1px #FFF;
-                color: #FFF;
-                outline: none;
-                box-shadow: 0px 0px 3px 2px rgba(75,0,130,0);
-                transition: box-shadow 0.3s ease, border-color 0.3s ease;
-            }
-
-            .search-box .search-input:focus {
-                border-color: #4b0082;
-                box-shadow: 0px 0px 4px 2px rgba(75,0,130,0.15);
-            }
-
-            /* Placeholder */
-            .search-box .search-input::-webkit-input-placeholder { color: #bfbfbf; }
-            .search-box .search-input::-moz-placeholder          { color: #bfbfbf; opacity: 1; }
-            .search-box .search-input:-ms-input-placeholder      { color: #bfbfbf; }
-
-            /* Icon */
-            .search-box .search-icon {
-                content: '';
-                position: absolute;
-                z-index: 0;
-                top: 1px; /* Keep away */
-                right: 1px; /* from */
-                bottom: 1px; /* border */
-                width: 50px;
-                line-height: 38px; /* 40 - 1 - 1 */
-                font-size: 20px;
-                text-align: center;
-                color: #FFF;
-                transition: transform 0.2s ease;
-            }
-
-            /* Button */
-            .search-box .search-button {
-                position: absolute;
-                z-index: 1;
-                top: -5px; /* using negative values, so that on touch */
-                right: 1px; 
-                bottom: -5px; /* devices it would be easier to hit */
-                width: 50px;
-                border: none;
-                overflow: hidden; /* Just to be sure */
-                opacity: 0; /* hidden */
-                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE8 */
-            }
             .welcome_msg{
                 color: #FFF;
                 margin-top: 8px;
@@ -269,6 +125,7 @@
 
 
 
+
         </style>
 
         <script>
@@ -276,7 +133,7 @@
         </script>
 
     </head>
-    <body style="height: 1200px">
+    <body>
         <!---->
         <div class="header">
             <div class="container">
@@ -462,63 +319,21 @@
 
 
 
-        <!--              <div class="footer">
-                            <div class="container">
-                                <p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://w3layouts.com">  W3layouts</a></p>
-                                <div class="social">
-                                    <a href="#"><span class="icon1"></span></a>
-                                    <a href="#"><span class="icon2"></span></a>
-                                    <a href="#"><span class="icon3"></span></a>
-                                    <a href="#"><span class="icon4"></span></a>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>	 
-                        </div>-->
+        <div class="footer">
+            <div class="container">
+                <p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://w3layouts.com">  W3layouts</a></p>
+                <div class="social">
+                    <a href="#"><span class="icon1"></span></a>
+                    <a href="#"><span class="icon2"></span></a>
+                    <a href="#"><span class="icon3"></span></a>
+                    <a href="#"><span class="icon4"></span></a>
+                </div>
+                <div class="clearfix"></div>
+            </div>	 
+        </div>
         <!---->
 
 
-
-        <script>
-            $(function () {
-
-                $("#dis1")
-                        .mouseover(function () {
-                            $("#dis1").addClass("disHover");
-                            $('#diabetes_icon1').attr("src", 'resources/icons/diabaticsHover.png');
-                        })
-                        .mouseout(function () {
-                            $("#dis1").removeClass("disHover");
-                            $('#diabetes_icon1').attr("src", 'resources/icons/diabatics.png');
-                        });
-                $("#dis2")
-                        .mouseover(function () {
-                            $("#dis2").addClass("disHover2");
-                            $('#diabetes_icon2').attr("src", 'resources/icons/careHover.png');
-                        })
-                        .mouseout(function () {
-                            $("#dis2").removeClass("disHover2");
-                            $('#diabetes_icon2').attr("src", 'resources/icons/care.png');
-                        });
-                $("#dis3")
-                        .mouseover(function () {
-                            $("#dis3").addClass("disHover");
-                            $('#diabetes_icon3').attr("src", 'resources/icons/otcHover.png');
-                        })
-                        .mouseout(function () {
-                            $("#dis3").removeClass("disHover");
-                            $('#diabetes_icon3').attr("src", 'resources/icons/otc.png');
-                        });
-                $("#dis4")
-                        .mouseover(function () {
-                            $("#dis4").addClass("disHover2");
-                            $('#diabetes_icon4').attr("src", 'resources/icons/wellnessHover.png');
-                        })
-                        .mouseout(function () {
-                            $("#dis4").removeClass("disHover2");
-                            $('#diabetes_icon4').attr("src", 'resources/icons/wellness.png');
-                        });
-            });
-        </script>
 
 
 
