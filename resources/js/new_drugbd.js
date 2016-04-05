@@ -43,4 +43,6 @@ $(function () {
                 $("#dis4").removeClass("disHover2");
                 $('#diabetes_icon4').attr("src", 'resources/icons/wellness.png');
             });
+
+
 });

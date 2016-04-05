@@ -117,6 +117,13 @@ a i.c4{
     margin-left:3em;
     border-bottom:2px solid #1a1818;
 }
+.well,.well-sm,.well-lg {
+    background-color: white;
+}
+img.prodSize {
+    width : 200px;
+    height: 250px;
+}
 .cart-sec{
     vertical-align:super;
     display:inline-block;
@@ -529,3 +536,76 @@ a span.icon4:hover{
 }
 
 
+
+
+/** Special Offer **/
+.no-padding-lr{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.humanPic{
+    height: 100px;
+    width: 100px;
+}
+.slideHeader{
+
+}
+.slideAuthor{
+    padding: 20px;
+    font-weight: bold;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: none;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #999;
+    background-color: #999;
+}
+
+.full-width{
+    width: 100%;
+}
+.slideBox span{
+    float: left;
+}
+.slideContent{
+    position: relative;
+    top: 20px;
+}
+.gray{
+    height: auto;
+    clear: both;
+    background: #F2F2F2;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: -30px;
+}
+
+/** Special Offer END **/
+
+
+.backLeft{
+    background-color: #1a1818;
+}
+
+.backRight{
+    background: url(../../resources/images/Banner.png) no-repeat center center;
+}
+
+.enterEmail {
+    background-color:transparent !important;
+    border:none !important;
+}

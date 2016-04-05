@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
     <head>
         <link href="resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
         <script src="resources/js/jquery.min.js"></script>
@@ -310,7 +310,335 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+
+            <!-- Fourth ROW -->
+            <section class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-sm-12">
+                        <div class="row" style="margin-top: 99px;">
+                            <div class="col-md-3 col-sm-6 col-xs-12 well clearfix" id="1">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+                                <img class="prodSize" alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product01.png"/>
+                                <button class="btn btn-success pull-right">new</button>
+
+                                <div class="row">
+                                    <div class = "col-sm-6">
+                                        <img  class = "pull-right" alt = "Add to cart" src = "resources/images/Product%20image/cart.png"/>
+                                    </div><div class = "col-sm-6">
+                                        <img  class = "pull-left" alt = "Add to cart" src = "resources/images/Product%20image/cart.png"/>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 well">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <img class="prodSize"alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product02.png" />
+
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 well">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <img class="prodSize"alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product03.png" />
+                                <button class="btn btn-danger pull-right">sale</button>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 well">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <img class="prodSize"alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product04.png" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p class="text-center">75%</p>
+
+
+                            </div>
+
+
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p class="text-center">75%</p>
+
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p class="text-center">75%</p>
+
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p class="text-center">75%</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-md-12 col-sm-12">
+                        <div class="row" style="margin-top: 99px;">
+                            <div class="col-md-3 col-sm-6 col-xs-12 well">
+
+                                <img class="prodSize" alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product01.png" class="img-responsive full-width" />/>
+
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 well">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <img class="prodSize" alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product02.png" class="img-responsive full-width" />/>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 well">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <img class="prodSize" alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product03.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 well">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <img class="prodSize" alt="Bootstrap Image Preview" src="resources/images/Product%20image/Product04.png" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p class="text-center">75%</p>
+
+
+                            </div>
+
+
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p  class="text-center">75%</p>
+
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p  class="text-center">75%</p>
+
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-5 col-md-offset-3">
+
+                                </div>
+
+                                <p class="text-muted text-center">asdasdasdasdasdasd</p>
+                                <p class="text-center">75%</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="container" style="margin-top: 99px;>
+            <div class="col-md-12 gray no-padding-lr">
+                <div class="col-md-4 no-padding-lr">
+                    <a href="#"><img src="resources/images/Spacial%20Offer/add%201.png" class="img-responsive full-width" /></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="row no-padding-lr form-group">
+                        <img src="resources/images/Spacial%20Offer/add%202.png" class="img-responsive">
+                    </div>
+                    <div id="myCarousel" class="carousel slide white row" data-ride="carousel">
+                        <br />
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="slideItem">
+
+                                    <div class="col-md-12 form-group text-center">
+                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                        <div class="">
+                                            <div class="col-md-2  form-group">
+                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                            </div>
+                                            <div class="col-md-10 form-group slideContent">
+                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="slideItem">
+
+                                    <div class="col-md-12 form-group text-center">
+                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                        <div class="">
+                                            <div class="col-md-2  form-group">
+                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                            </div>
+                                            <div class="col-md-10 form-group slideContent">
+                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="slideItem">
+
+                                    <div class="col-md-12 form-group text-center">
+                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                        <div class="">
+                                            <div class="col-md-2  form-group">
+                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                            </div>
+                                            <div class="col-md-10 form-group slideContent">
+                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="slideItem">
+
+                                    <div class="col-md-12 form-group text-center">
+                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                        <div class="">
+                                            <div class="col-md-2  form-group">
+                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                            </div>
+                                            <div class="col-md-10 form-group slideContent">
+                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Indicators -->
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Left and right controls -->
+                        <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>-->
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <!-- Last section -->
+            <section class="container" style="margin-top: 99px;>
+            <div class = "row">
+                <div class = "col-sm-6 backLeft">
+                    <h3 style="margin-top: 99px; margin-left: 35px; margin-bottom: 99px">Share your empty seats</h3>
+
+                </div>
+                <div class = "col-sm-6 backRight" >
+                    <div style="margin-top: 99px; margin-left: 35px; margin-bottom: 99px">
+                    <h3 >
+                        <p>
+                            Join Our Newsletter
+                        </p> <small><cite>Sign Up ang get more events and promotions!</cite></small>
+                    </h3>
+                        <div class="enterEmail">
+                            <input class="center-block form-control" style="margin-top: 35px; background-color: transparent";type="text" placeholder="Enter your email here"><br>
+
+                        </div>
+                        </div>
+
+                </div>
+
+                </div>
+                </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div> <!--  Container-fluid -->
 
 
 
