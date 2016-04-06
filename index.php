@@ -13,118 +13,6 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arimo" />
 
         <style>
-            .welcome_msg{
-                color: #FFF;
-                margin-top: 8px;
-            }
-            .banner_content{
-                margin-top: 6%;
-                margin-bottom: 11%;
-            }
-            .card_facility{
-                background: #FFF;
-                min-height: 175px;
-                border: 1px solid #d2d2d2;
-            }
-            .card_facility_icon_rx{
-                border-radius: 50%;
-                height: 119px;
-                position: absolute;
-                margin-top: -43px;
-                border: 1px solid #ccc;
-                background: url('resources/icons/Rx.png') no-repeat center;
-                background-color: #f4f4f4;
-            }
-            .card_facility_icon_rx:hover{
-                background: url('resources/icons/RxHover.png') no-repeat center;
-                background-color: #86CCD4;
-            }
-            .card_facility_icon_fast{
-                border-radius: 50%;
-                height: 119px;
-                position: absolute;
-                margin-top: -43px;
-                border: 1px solid #ccc;
-                background: url('resources/icons/delivery.png') no-repeat center;
-                background-color: #f4f4f4;
-            }
-            .card_facility_icon_fast:hover{
-                background: url('resources/icons/deliveryHover.png') no-repeat center;
-                background-color: #86CCD4;
-            }
-            .card_facility_icon_hy{
-                border-radius: 50%;
-                height: 119px;
-                position: absolute;
-                margin-top: -43px;
-                border: 1px solid #ccc;
-                background: url('resources/icons/hygienic.png') no-repeat center;
-                background-color: #f4f4f4;
-            }
-            .card_facility_icon_hy:hover{
-                background: url('resources/icons/hygienicHover.png') no-repeat center;
-                background-color: #86CCD4;
-            }
-            .card_facility_icon_sa{
-                border-radius: 50%;
-                height: 119px;
-                position: absolute;
-                margin-top: -43px;
-                border: 1px solid #ccc;
-                background: url('resources/icons/savings.png') no-repeat center;
-                background-color: #f4f4f4;
-            }
-            .card_facility_icon_sa:hover{
-                background: url('resources/icons/savingsHover.png') no-repeat center;
-                background-color: #86CCD4;
-            }
-
-            .card_facility_text{
-                margin-top: 93px;
-                font-weight: bold;
-                font-size: 14px;
-            }
-            .card_facility_last{
-                font-size: 12px;
-                margin-top: 7px;
-                padding-bottom: 18px;
-                color: #BCBCBC;
-            }
-            .dis{
-                background-color: #F0F0F0;
-                margin: 65px 0px 65px 0px;
-                padding: 33px 0px 16px 9px;
-                font-size: 18px;
-                color: #464646;
-                height: 132px;
-            }
-            .disHover{
-                background-color: #86CCD4;
-                margin: 65px 0px 65px 0px;
-                padding: 33px 0px 16px 9px;
-                font-size: 18px;
-                color: #FFF;
-                height: 132px;
-            }
-            .dis2{
-                background-color: #F4F4F4;
-                margin: 65px 0px 65px 0px;
-                padding: 33px 0px 16px 9px;
-                font-size: 18px;
-                color: #464646;
-                height: 132px;
-            }
-            .disHover2{
-                background-color: #86CCD4;
-                margin: 65px 0px 65px 0px;
-                padding: 33px 0px 16px 9px;
-                font-size: 18px;
-                color: #FFF;
-                height: 132px;
-            }
-
-
-
 
         </style>
 
@@ -490,182 +378,188 @@
             </section>
 
 
-            <section class="container" style="margin-top: 99px;>
-            <div class="col-md-12 gray no-padding-lr">
-                <div class="col-md-4 no-padding-lr">
-                    <a href="#"><img src="resources/images/Spacial%20Offer/add%201.png" class="img-responsive full-width" /></a>
-                </div>
-                <div class="col-md-8">
-                    <div class="row no-padding-lr form-group">
-                        <img src="resources/images/Spacial%20Offer/add%202.png" class="img-responsive">
-                    </div>
-                    <div id="myCarousel" class="carousel slide white row" data-ride="carousel">
-                        <br />
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <div class="slideItem">
 
-                                    <div class="col-md-12 form-group text-center">
-                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
-                                        <div class="">
-                                            <div class="col-md-2  form-group">
-                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
-                                            </div>
-                                            <div class="col-md-10 form-group slideContent">
-                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
-                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
+            <div class="row" style="margin-top: 68px;background-color: #FFF;">
+                <div class="col-xs-12 col-md-12 col-sm-12">
+                    <div class="container">
+                        <div class="col-md-12 gray no-padding-lr" style="margin-top: 99px;margin-bottom: 99px">
+                            <div class="col-md-4 no-padding-lr">
+                                <a href="#"><img src="resources/images/Spacial%20Offer/add%201.png" class="img-responsive full-width" /></a>
                             </div>
-                            <div class="item">
-                                <div class="slideItem">
-
-                                    <div class="col-md-12 form-group text-center">
-                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
-                                        <div class="">
-                                            <div class="col-md-2  form-group">
-                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
-                                            </div>
-                                            <div class="col-md-10 form-group slideContent">
-                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
-                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
+                            <div class="col-md-8">
+                                <div class="row no-padding-lr form-group">
+                                    <img src="resources/images/Spacial%20Offer/add%202.png" class="img-responsive">
                                 </div>
-                            </div>
+                                <div id="myCarousel" class="carousel slide white row" data-ride="carousel">
+                                    <br />
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <div class="slideItem">
 
-                            <div class="item">
-                                <div class="slideItem">
+                                                <div class="col-md-12 form-group text-center">
+                                                    <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                                    <div class="">
+                                                        <div class="col-md-2  form-group">
+                                                            <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                                        </div>
+                                                        <div class="col-md-10 form-group slideContent">
+                                                            This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                            <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                                        </div>
+                                                    </div>
 
-                                    <div class="col-md-12 form-group text-center">
-                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
-                                        <div class="">
-                                            <div class="col-md-2  form-group">
-                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                                </div>
                                             </div>
-                                            <div class="col-md-10 form-group slideContent">
-                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
-                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="slideItem">
+
+                                                <div class="col-md-12 form-group text-center">
+                                                    <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                                    <div class="">
+                                                        <div class="col-md-2  form-group">
+                                                            <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                                        </div>
+                                                        <div class="col-md-10 form-group slideContent">
+                                                            This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                            <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                             </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                            </div>
+                                        <div class="item">
+                                            <div class="slideItem">
 
-                            <div class="item">
-                                <div class="slideItem">
+                                                <div class="col-md-12 form-group text-center">
+                                                    <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                                    <div class="">
+                                                        <div class="col-md-2  form-group">
+                                                            <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                                        </div>
+                                                        <div class="col-md-10 form-group slideContent">
+                                                            This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                            <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                                        </div>
+                                                    </div>
 
-                                    <div class="col-md-12 form-group text-center">
-                                        <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
-                                        <div class="">
-                                            <div class="col-md-2  form-group">
-                                                <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
-                                            </div>
-                                            <div class="col-md-10 form-group slideContent">
-                                                This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
-                                                <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                                </div>
                                             </div>
                                         </div>
 
+                                        <div class="item">
+                                            <div class="slideItem">
+
+                                                <div class="col-md-12 form-group text-center">
+                                                    <div class="form-group slideHeader">CUSTOMER FEEDBACK</div>
+                                                    <div class="">
+                                                        <div class="col-md-2  form-group">
+                                                            <img src="resources/images/Spacial%20Offer/abhishek_pachal.jpg" class="img-circle humanPic img-responsive" />
+                                                        </div>
+                                                        <div class="col-md-10 form-group slideContent">
+                                                            This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here. This is a sample text. Dialogues appear here.
+                                                            <div class="text-right slideAuthor">Abir Roy, BIT</div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <!-- Indicators -->
+
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                                    </ol>
+
                                 </div>
                             </div>
                         </div>
-                        <!-- Indicators -->
-
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
-                        </ol>
-                        <!-- Left and right controls -->
-                        <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>-->
                     </div>
                 </div>
             </div>
-            </section>
 
             <!-- Last section -->
-            <section class="container" style="margin-top: 99px;>
-            <div class = "row">
-                <div class = "col-sm-6 backLeft">
-                    <h3 style="margin-top: 99px; margin-left: 35px; margin-bottom: 99px">Share your empty seats</h3>
+            <div class = "row backLeft">
+
+                <div class = "col-sm-6">
+
+                    <div class="col-md-4 col-sm-12 col-md-offset-4 col-xs-12 social-link">
+                        <a href="#" class="icon-btn twitter">
+                            <i class="icon-twitter fa fa-twitter"></i><span></span>
+                        </a>
+                        <a href="#" class="icon-btn facebook">
+                            <i class="icon-facebook fa fa-facebook"></i><span></span>
+                        </a>
+                        <a href="#" class="icon-btn gplus">
+                            <i class="icon-google-plus fa fa-google-plus"></i><span></span>
+                        </a>
+                    </div>
+
+
 
                 </div>
                 <div class = "col-sm-6 backRight" >
                     <div style="margin-top: 99px; margin-left: 35px; margin-bottom: 99px">
-                    <h3 >
-                        <p>
-                            Join Our Newsletter
-                        </p> <small><cite>Sign Up ang get more events and promotions!</cite></small>
-                    </h3>
+                        <h3>
+                            <p>
+                                Join Our Newsletter
+                            </p> <small><cite>Sign Up ang get more events and promotions!</cite></small>
+                        </h3>
                         <div class="enterEmail">
-                            <input class="center-block form-control" style="margin-top: 35px; background-color: transparent";type="text" placeholder="Enter your email here"><br>
-
+                            <input class="center-block form-control" style="margin-top: 35px; background-color: transparent" type="text" placeholder="Enter your email here"><br>
                         </div>
-                        </div>
-
+                    </div>
                 </div>
-
-                </div>
-                </section>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div> <!--  Container-fluid -->
-
-
-
-
-
-
-
-
-        <div class="footer">
-            <div class="container">
-                <p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://w3layouts.com">  W3layouts</a></p>
-                <div class="social">
-                    <a href="#"><span class="icon1"></span></a>
-                    <a href="#"><span class="icon2"></span></a>
-                    <a href="#"><span class="icon3"></span></a>
-                    <a href="#"><span class="icon4"></span></a>
-                </div>
-                <div class="clearfix"></div>
-            </div>	 
         </div>
-        <!---->
 
 
 
 
 
-        <!-- Latest compiled and minified JavaScript -->    
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    </body>
+
+
+
+
+
+
+
+
+
+    </div> <!--  Container-fluid -->
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://w3layouts.com">  W3layouts</a></p>
+            <div class="social">
+                <a href="#"><span class="icon1"></span></a>
+                <a href="#"><span class="icon2"></span></a>
+                <a href="#"><span class="icon3"></span></a>
+                <a href="#"><span class="icon4"></span></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>	 
+    </div>
+    <!---->
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript -->    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
 </html>
