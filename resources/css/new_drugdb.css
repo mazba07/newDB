@@ -609,3 +609,6 @@ a span.icon4:hover{
     background-color:transparent !important;
     border:none !important;
 }
+li:hover{
+    color:white   !important;
+}

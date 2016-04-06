@@ -649,6 +649,98 @@
 
         <div class="footer">
             <div class="container">
+                <div class = "row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3 style=color: white;> ABOUT US</h3><br><br>
+                        <ul class="list-unstyled">
+                            <li>
+                                Support Center
+                            </li>
+                            <li>
+                                Customer Support
+                            </li>
+                            <li>
+                                About Us
+                            </li>
+                            <li>
+                                Copyright
+                            </li>
+                            <li>
+                                Popular Campaign
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3 style=color: white;> ABOUT US</h3><br><br>
+                        <ul class="list-unstyled">
+                            <li>
+                                Support Center
+                            </li>
+                            <li>
+                                Customer Support
+                            </li>
+                            <li>
+                                About Us
+                            </li>
+                            <li>
+                                Copyright
+                            </li>
+                            <li>
+                                Popular Campaign
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3 style=color: white;> ABOUT US</h3><br><br>
+                        <ul class="list-unstyled">
+                            <li>
+                                Support Center
+                            </li>
+                            <li>
+                                Customer Support
+                            </li>
+                            <li>
+                                About Us
+                            </li>
+                            <li>
+                                Copyright
+                            </li>
+                            <li>
+                                Popular Campaign
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3 style=color: white;> ABOUT US</h3><br><br>
+                        <div class = "row">
+                            <div class="col-md-4">
+                                <img alt="1 Image Preview" src="http://lorempixel.com/140/140" width= "95"/>
+                            </div>
+                            <div class="col-md-4">
+                                <img alt="2 Image Preview" src="http://lorempixel.com/140/140" width= "95" />
+                            </div>
+                            <div class="col-md-4">
+                                <img alt="3 Image Preview" src="http://lorempixel.com/140/140" width= "95"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <br>
+                            <div class="col-md-4">
+                                <img alt="4 Image Preview" src="http://lorempixel.com/140/140" width= "95"/>
+                            </div>
+                            <div class="col-md-4">
+                                <img alt="5 Image Preview" src="http://lorempixel.com/140/140" width= "95"/>
+                            </div>
+                            <div class="col-md-4">
+                                <img alt="6 Image Preview" src="http://lorempixel.com/140/140" width= "95"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
                 <p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://w3layouts.com">  W3layouts</a></p>
                 <div class="social">
                     <a href="#"><span class="icon1"></span></a>
