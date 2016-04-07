@@ -658,6 +658,11 @@ a span.icon4:hover{
     margin: 5px;
 }
 
+.btn-drugBd{
+    border-radius: 45px;
+    background: #E6BF70; color: white;
+
+}
 .radio{
     margin: 2%; !important;
 }
@@ -702,7 +707,9 @@ p{
     border: 2px solid #ddd;
     padding: 15px;
 }
-
+#contactUsHead{
+    border: none;
+}
 #stepOneContainer{
     margin: 55px;
 }
@@ -715,15 +722,21 @@ p{
 }
 
 
-.padded{
-    padding: 5px;
+.margined{
+    margin-top: 2%;
 }
 
-   .shopping-cart {
+/*Contact Us*/
+#contactContainer{
+    margin-top: 10%;;
+}
+
+
+.shopping-cart {
        margin: 0;
        padding-top: 20px;
        border-top: 1px solid #eee;
-   }
+}
 
 .wrap{
     min-height: 600px;
