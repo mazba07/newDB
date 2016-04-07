@@ -598,7 +598,7 @@ a span.icon4:hover{
 
 
 .backLeft{
-    background-color: #1a1818;
+    background-color: #7a7a7a;
 }
 
 .backRight{
@@ -609,6 +609,7 @@ a span.icon4:hover{
     background-color:transparent !important;
     border:none !important;
 }
+<<<<<<< HEAD
 .foot li:hover{
     color:white   !important;
 }
@@ -754,3 +755,216 @@ a span.icon4:hover{
     background-color: #a44;
 }
 
+=======
+
+
+.welcome_msg{
+    color: #FFF;
+    margin-top: 8px;
+}
+.banner_content{
+    margin-top: 6%;
+    margin-bottom: 11%;
+}
+.card_facility{
+    background: #FFF;
+    min-height: 175px;
+    border: 1px solid #d2d2d2;
+}
+.card_facility_icon_rx{
+    border-radius: 50%;
+    height: 119px;
+    position: absolute;
+    margin-top: -43px;
+    border: 1px solid #ccc;
+    background: url('../../resources/icons/Rx.png') no-repeat center;
+    background-color: #f4f4f4;
+}
+.card_facility_icon_rx:hover{
+    background: url('../../resources/icons/RxHover.png') no-repeat center;
+    background-color: #86CCD4;
+}
+.card_facility_icon_fast{
+    border-radius: 50%;
+    height: 119px;
+    position: absolute;
+    margin-top: -43px;
+    border: 1px solid #ccc;
+    background: url('../../resources/icons/delivery.png') no-repeat center;
+    background-color: #f4f4f4;
+}
+.card_facility_icon_fast:hover{
+    background: url('../../resources/icons/deliveryHover.png') no-repeat center;
+    background-color: #86CCD4;
+}
+.card_facility_icon_hy{
+    border-radius: 50%;
+    height: 119px;
+    position: absolute;
+    margin-top: -43px;
+    border: 1px solid #ccc;
+    background: url('../../resources/icons/hygienic.png') no-repeat center;
+    background-color: #f4f4f4;
+}
+.card_facility_icon_hy:hover{
+    background: url('../../resources/icons/hygienicHover.png') no-repeat center;
+    background-color: #86CCD4;
+}
+.card_facility_icon_sa{
+    border-radius: 50%;
+    height: 119px;
+    position: absolute;
+    margin-top: -43px;
+    border: 1px solid #ccc;
+    background: url('../../resources/icons/savings.png') no-repeat center;
+    background-color: #f4f4f4;
+}
+.card_facility_icon_sa:hover{
+    background: url('../../resources/icons/savingsHover.png') no-repeat center;
+    background-color: #86CCD4;
+}
+
+.card_facility_text{
+    margin-top: 93px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.card_facility_last{
+    font-size: 12px;
+    margin-top: 7px;
+    padding-bottom: 18px;
+    color: #BCBCBC;
+}
+.dis{
+    background-color: #F0F0F0;
+    margin: 65px 0px 65px 0px;
+    padding: 33px 0px 16px 9px;
+    font-size: 18px;
+    color: #464646;
+    height: 132px;
+}
+.disHover{
+    background-color: #86CCD4;
+    margin: 65px 0px 65px 0px;
+    padding: 33px 0px 16px 9px;
+    font-size: 18px;
+    color: #FFF;
+    height: 132px;
+}
+.dis2{
+    background-color: #F4F4F4;
+    margin: 65px 0px 65px 0px;
+    padding: 33px 0px 16px 9px;
+    font-size: 18px;
+    color: #464646;
+    height: 132px;
+}
+.disHover2{
+    background-color: #86CCD4;
+    margin: 65px 0px 65px 0px;
+    padding: 33px 0px 16px 9px;
+    font-size: 18px;
+    color: #FFF;
+    height: 132px;
+}
+
+
+
+
+.social-link a,.menu-link a{
+    color: #FFFFFF;
+}
+
+.menu-link a:hover{
+    text-decoration: underline;
+}
+
+.social-link,.copyright{
+    margin-top: 25%;
+}
+
+
+.icon-btn {
+    border-radius: 3.6rem;
+
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: 0 5px;
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    background: #888888;
+}
+
+.icon-btn span{
+    display: block;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.icon-btn:hover span{
+    display: block;
+    border-radius: 3.6rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: -1.8rem;
+
+}
+
+.twitter span{
+    background-color: #4099ff;
+}
+
+.facebook span{
+    background-color: #3B5998;
+}
+.gplus span{
+    background-color: #db5a3c;
+}
+
+
+.icon-btn i{
+    color: white;
+    /*background: white;*/
+    height: 3.6rem;
+    width: 3.6rem;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 10;
+    line-height: 3.6rem;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s ;
+    transition: all 0.3s;
+
+
+}
+
+.icon-btn:hover .icon-twitter, .icon-btn:hover .icon-facebook, .icon-btn:hover .icon-google-plus{
+    color: white;
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+}
+li:hover{
+    color:white   !important;
+}
+>>>>>>> origin/master
