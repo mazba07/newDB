@@ -643,10 +643,6 @@ a span.icon4:hover{
     font-size: 1px;
 }
 
-#orderDetailsCheckout tr:nth-last-child(-n+3) td{
-   
-    border-top: none;
-}
 
 .padded{
     padding: 5px;
@@ -755,8 +751,11 @@ a span.icon4:hover{
     background-color: #a44;
 }
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 
 .welcome_msg{
     color: #FFF;

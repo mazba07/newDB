@@ -74,7 +74,11 @@
                   <td><ins><b>Tk.200</b></ins></td>
                   <td></td>
               </tr>
+<<<<<<< Updated upstream
               
+=======
+
+>>>>>>> Stashed changes
               <tr>
 
                   <td></td>
