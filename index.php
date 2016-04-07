@@ -140,16 +140,20 @@
                 <div class="header-left">
                     <div class="top-menu">
                         <ul>
-                            <li class="active dropdown">
-                                <a href="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    <span class="caret" style="margin-top: -8px"></span>PRODUCT
+                            <li class="dropdown">
+                                <a href="" data-toggle="dropdown">
+                                    <span class="caret" style="margin-top: -8px"></span>PRODUCTS
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Allergic Disorders</a></li><hr>
+                                    <li><a href="#">Analgesics and Antipyretic</a></li><hr>
+                                    <li><a href="#">Anti-infectives</a></li><hr>
+                                    <li><a href="#">Central Nervous System</a></li><hr>
+                                    <li><a href="#">Cardiovascular</a></li><hr>
+                                    <li><a href="#">Cough & Cold</a></li>
+                                    <!--<li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>-->
                                 </ul>
                             </li>
                             <li><a href="woman.html"><i class="fa fa-user"></i> LOGIN</a></li>
@@ -647,7 +651,7 @@
 
 
 
-        <div class="footer">
+        <div class="footer foot">
             <div class="container">
                 <div class = "row">
                     <div class="col-md-3 col-sm-6 col-xs-12">
