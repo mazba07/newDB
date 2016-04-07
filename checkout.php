@@ -16,44 +16,50 @@
 
 
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="checkout1Container">
    <div class="row">
     <div class="col-md-12">
         <div class="table-responsive" style="padding: 100px;">
-            <p>Home / Checkout</p>
+            <p>Home / Checkout</p><br>
             <div class="panel panel-info">
                 <div class="panel-heading panel-heading-custom text-center"> Your Order</div>
             </div>
-          <table class="table" id="orderDetailsCheckout">
-            <thead>
+            <table class="table text-center" id="orderDetailsCheckout">
+            <thead >
             <tr>
-                <th>Picture</th>
-                <th>Product</th>
-                <th>Qty</th>
-                <th>Price</th>
-                <th>Total</th>
-                <th>Action</th>
+                <th class="text-center">Picture</th>
+                <th class="text-center">Product</th>
+                <th class="text-center">Qty</th>
+                <th class="text-center">Price</th>
+                <th class="text-center">Total</th>
+                <th class="text-center">Action</th>
             </tr>
             </thead>
               <tbody>
               <tr>
-                  <td> IMAGE </td>
+                  <td> <img alt="3 Image Preview" src="http://lorempixel.com/140/140" width= "35"/> </td>
                   <td>John</td>
                   <td>1</td>
                   <td>Tk 75.00</td>
                   <td>Tk 75.00</td>
-                  <td><i class="fa fa-trash-o" style=" font-size: 1.5em;"></i></td>
+                  <td class="text-center"><i class="fa fa-trash-o" style=" font-size: 1.5em;"></i></td>
               </tr>
               <tr>
-                  <td> IMAGE </td>
+                  <td> <img alt="3 Image Preview" src="http://lorempixel.com/140/140" width= "35"/> </td>
                   <td>Moe</td>
                   <td>1</td>
                   <td>Tk 75.00</td>
                   <td>Tk 75.00</td>
-                  <td><i class="fa fa-trash-o" style=" font-size: 1.5em;"></i></td>
+                  <td class="text-center"><i class="fa fa-trash-o" style=" font-size: 1.5em;"></i></td>
               </tr>
+
               <tr>
-                  <td></td><td></td><td></td>
+
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+
+
                   <td>Subtotal</td>
                   <td>Tk.150</td>
                   <td></td>
@@ -74,11 +80,7 @@
                   <td><ins><b>Tk.200</b></ins></td>
                   <td></td>
               </tr>
-<<<<<<< Updated upstream
-              
-=======
-
->>>>>>> Stashed changes
+                <tr></tr>
               <tr>
 
                   <td></td>
@@ -86,7 +88,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><div class="checkoutBtn text-center"> <h5>CHECKOUT</h5></div></td>
+                  <td <div class="checkoutBtn text-center"> <h5>CHECKOUT</h5></div></td>
               </tr>
               </tbody>
           </table>
