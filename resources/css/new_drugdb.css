@@ -609,7 +609,7 @@ a span.icon4:hover{
     background-color:transparent !important;
     border:none !important;
 }
-<<<<<<< HEAD
+
 .foot li:hover{
     color:white   !important;
 }
@@ -643,9 +643,9 @@ a span.icon4:hover{
     font-size: 1px;
 }
 
-#orderDetailsCheckout tr:nth-last-child(-n+3){
-    background: yellow;
-    border: solid;
+#orderDetailsCheckout tr:nth-last-child(-n+3) td{
+   
+    border-top: none;
 }
 
 .padded{
@@ -755,7 +755,7 @@ a span.icon4:hover{
     background-color: #a44;
 }
 
-=======
+
 
 
 .welcome_msg{
@@ -967,4 +967,4 @@ a span.icon4:hover{
 li:hover{
     color:white   !important;
 }
->>>>>>> origin/master
+

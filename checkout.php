@@ -74,9 +74,7 @@
                   <td><ins><b>Tk.200</b></ins></td>
                   <td></td>
               </tr>
-              <tr></tr>
-              <tr></tr>
-              <tr></tr>
+              
               <tr>
 
                   <td></td>
