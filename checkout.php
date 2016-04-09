@@ -14,12 +14,12 @@
 </head>
 <body>
 
+<!--
 
-
-  <div class="container-fluid" id="checkout1Container">
-   <div class="row">
-    <div class="col-md-12">
-        <div class="table-responsive" style="padding: 100px;">
+  <div class="container  table-responsive">
+   <div class="row ">
+    <div class="col-xs-12 col-md-12 col-sm-12">
+        <div style="padding: 10%;">
             <p>Home / Checkout</p><br>
             <div class="panel panel-info">
                 <div class="panel-heading panel-heading-custom text-center"> Your Order</div>
@@ -88,7 +88,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td <div class="checkoutBtn text-center"> <h5>CHECKOUT</h5></div></td>
+                  <td><button class="pull-right btn btn-drugBd">CHECKOUT</button></td>
               </tr>
               </tbody>
           </table>
@@ -97,6 +97,153 @@
    </div>
 
   </div>
+
+-->
+<div class="container">
+    <div class="row seven-cols">
+        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+            <div class="staff-photo">
+                <img src="http://placehold.it/150x150.jpg">
+            </div>
+
+            <div class="staff-name">
+                <div class="staff-first-name">
+                    STAFF
+                </div>
+                <div class="staff-second-name">
+                    NAME
+                </div>
+            </div>
+
+            <div class="staff-title">
+                Staff Title and This Text Could Longer Due to Titles
+            </div>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+            <div class="staff-photo">
+                <img src="http://placehold.it/150x150.jpg">
+            </div>
+
+            <div class="staff-name">
+                <div class="staff-first-name">
+                    STAFF
+                </div>
+                <div class="staff-second-name">
+                    NAME
+                </div>
+            </div>
+
+            <div class="staff-title">
+                Staff Title and This Text Could Longer Due to Titles
+            </div>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+            <div class="staff-photo">
+                <img src="http://placehold.it/150x150.jpg">
+            </div>
+
+            <div class="staff-name">
+                <div class="staff-first-name">
+                    STAFF
+                </div>
+                <div class="staff-second-name">
+                    NAME
+                </div>
+            </div>
+
+            <div class="staff-title">
+                Staff Title and This Text Could Longer Due to Titles
+            </div>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+            <div class="staff-photo">
+                <img src="http://placehold.it/150x150.jpg">
+            </div>
+
+            <div class="staff-name">
+                <div class="staff-first-name">
+                    STAFF
+                </div>
+                <div class="staff-second-name">
+                    NAME
+                </div>
+            </div>
+
+            <div class="staff-title">
+                Staff Title and This Text Could Longer Due to Titles
+            </div>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+            <div class="staff-photo">
+                <img src="http://placehold.it/150x150.jpg">
+            </div>
+
+            <div class="staff-name">
+                <div class="staff-first-name">
+                    STAFF
+                </div>
+                <div class="staff-second-name">
+                    NAME
+                </div>
+            </div>
+
+            <div class="staff-title">
+                Staff Title and This Text Could Longer Due to Titles
+            </div>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+            <div class="staff-photo">
+                <img src="http://placehold.it/150x150.jpg">
+            </div>
+
+            <div class="staff-name">
+                <div class="staff-first-name">
+                    STAFF
+                </div>
+                <div class="staff-second-name">
+                    NAME
+                </div>
+            </div>
+
+            <div class="staff-title">
+                Staff Title and This Text Could Longer Due to Titles
+            </div>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+            <div class="staff-photo">
+                <img src="http://placehold.it/150x150.jpg">
+            </div>
+
+            <div class="staff-name">
+                <div class="staff-first-name">
+                    STAFF
+                </div>
+                <div class="staff-second-name">
+                    NAME
+                </div>
+            </div>
+
+            <div class="staff-title">
+                Staff Title and This Text Could Longer Due to Titles
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
 <script>document.body.style.backgroundColor = "white";</script>
 
 </body>

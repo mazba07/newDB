@@ -657,6 +657,10 @@ a span.icon4:hover{
     font-size: 1px;
     margin: 5px;
 }
+.bordered-table th,
+.bordered-table td{
+    border: 1px solid #ddd;
+}
 
 .btn-drugBd{
     border-radius: 45px;
@@ -667,6 +671,32 @@ a span.icon4:hover{
     margin: 2%; !important;
 }
 
+.butn-buy{
+    padding: 1px 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #86C759;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-color: white;
+}
+
+.padded{
+    padding:4%;
+}
+.no-border{
+    border: none !important;
+
+}
+.yes-border{
+    border: 1px solid #ddd;
+}
 p{
     color: #333333;
     padding:1%;
@@ -725,6 +755,22 @@ p{
 .margined{
     margin-top: 2%;
 }
+/** CHECKOUT - REPLACING TABLE WITH GRIDS **/
+@media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+/* 14% = 100% (full-width row) divided by 7 */
+
+img{
+    max-width: 100%;
+}
+
+
 
 /*Contact Us*/
 #contactContainer{
