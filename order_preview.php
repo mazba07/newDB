@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <link href="resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
     <script src="resources/js/jquery.min.js"></script>
@@ -14,64 +14,72 @@
 </head>
 <body>
 
-<div class="container-fluid" id="stepOneContainer">
+<div class="container-fluid">
     <div class="row">
-        <p>Home / Checkout</p><br> <br><div class="text-center"> <h1>Image</h1> </div>
-        <div class="col-xs-12 ">
-        </div>
-            <div class="row" id="deliveryAddress">
-                <div class="panel">
-                    <div class="panel-heading panel-heading-custom text-center " id="orderPreview">Give Your Delivery Address</div>
+        <p>Home / Checkout</p><br> <br>
+        <div class="col-md-4 col-md-offset-4 col-xs-12">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-sm-12">
+                    <div class="row margined">
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="location"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 center-block yes-border rectangle"></div>
+
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="timing"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
+
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="payment"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
+
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2"  id="overview"></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+                    </div>
                 </div>
-                <p class="text-center">Your Order is Not confirmed yet. Please click <em>here</em> to proceed.</p>
-                <div class="col-xs-6 ">
-                <table class="table" style="margin-top: 2%;">
-
-                    <tbody>
-                    <tr>
-                        <td><b>Address</b> <br><br> Abc Address 1/2 Uttara Dhaka</td>
-
-                    </tr>
-                    <tr>
-                        <td><b>Phone No:</b> <br><br> 01711420420</td>
-
-
-                    </tr>
-                    <tr>
-                        <td><b>Date:</b> <br> Tuesday, 5th April, 2016</td>
-
-                    </tr>
-                    </tbody>
-                </table>
             </div>
 
-        <div class="col-xs-6 col-md-offset-3">
-            <table class="table" id="noBorderRight"style="margin-top: 2%; ">
+            <div class="yes-border padded margined" id="less">
+                <div class="panel">
+                    <div class="panel-heading text-center" <span style="background-color: #81DB66;color:white"> Order Preview </span></div>
+                </div>
 
-                <tbody>
-                <tr>
-                    <td>Subtotal <br><br> Delivery Charges</td>
-                    <td>Tk 150.00<br><br> Tk. 50.00</td>
-                </tr>
-                <tr>
-                    <td><b>Total</b></td>
-                    <td>Tk. 200.00</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td> <div class="checkoutBtn text-center" ><h6> <span style="color:black">CONFIRM ORDER</span></h6> </div></td>
-                </tr>
-                </tbody>
-            </table>
+                <p class="text-center">
+                    Your Order is Not confirmed yet. Please click <a href="#">Confirm Order</a> for processing.
+                </p>
+
+                <div class="row" >
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <p class="">Address:<br>
+                            House - 44, Sector - 11, Uttara, Dhaka
+                        </p><hr>
+                        <p class="">Phone No.:<br>
+                            0171123465
+                        </p><hr>
+                        <p class="">Date: <br>
+                        Tuesday, 5th April, 2016<hr>
+                        </p>
+                        <p class="">Delivery Time:<br>
+                        8:00 AM - 9:00 AM<hr>
+                        </p>
+                        <p class="">Payment Method:<br>
+                        Bangladeshi Credit Card.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-md-3 col-sm-3">
+                        <p>Subtotal</p>
+                        <p>Delivery Charges</p><hr>
+                        <p>Total</p>
+                    </div>
+                    <div class="col-xs-12 col-md-3 col-sm-3">
+                        <p>Tk 150.00</p>
+                        <p>Tk 50.00</p><hr>
+                        <p>Tk 200.00</p>
+                        <button class="btn btn-drugBd" style="color: #080808 !important;">CONFIRM ORDER</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
     </div>
 </div>
-</div>
-
-
-
-
 <script>document.body.style.backgroundColor = "white";</script>
 </body>
 </html>

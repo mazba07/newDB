@@ -14,37 +14,44 @@
 </head>
 <body>
 
-<div class="container-fluid" id="stepOneContainer">
+<div class="container-fluid">
     <div class="row">
         <p>Home / Checkout</p><br> <br>
-        <div class="col-md-12 ">
-            <div class="text-center"> <h1>Image</h1> </div><br>
-
-
-            <div class="form-group" id="deliveryAddress">
-                <div class="panel panel-default">
-                    <div class="panel-heading text-center" id="confirmTimePanel">Confirm Delivery Timings</div>
+        <div class="col-xs-4"></div>
+        <div class="col-md-4 ">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="text-center"> <h1>Image</h1> </div>
                 </div>
-                <p>Order Instructions</p>
-                <textarea class="form-control" rows="5" id="order_instructions" placeholder="Example: Please Call me when you arrive"></textarea><br>
-                <p>When would you like your regular items?</p>
-                <input type="date" class="form-control fa fa-calendar pull-right" id="date" placeholder="Date: 6/5/2016"><br>
-                <p>When would you like the items to be delievered?</p>
-                <select class="form-control" id="time">
-                    <option>8:00AM - 9:00AM</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
             </div>
-            <div class="checkoutBtn text-center" id="deliveryTimeBtn"><h6> NEXT > DELIVERY TIME </h6> </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="yes-border" style="padding: 2%">
+                        <div class="panel">
+                            <div class="panel-heading text-center" <span style="background-color: #FF8B10;color:white"> Give Your Delivery Address</span></div>
+                        </div>
+                        <p>Order Instructions</p>
+                        <textarea class="form-control" rows="5" id="order_instructions" placeholder="Example: Please Call me when you arrive"></textarea><br>
+                        <p>When would you like your regular items?</p>
+                        <input type="date" class="form-control fa fa-calendar pull-right" id="date" placeholder="Date: 6/5/2016"><br>
+                        <p>When would you like the items to be delievered?</p>
+                        <select class="form-control" id="time">
+                            <option>8:00AM - 9:00AM</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+
+                    </div>
+                    <button class="pull-right btn btn-drugBd margined" style="color: #080808 !important;">NEXT > DELIVERY TIME</button>
+                </div>
+            </div>
 
         </div>
-
+        <div class="col-xs-4"></div>
     </div>
 </div>
-</div>
-
 
 
 

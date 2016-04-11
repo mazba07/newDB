@@ -14,17 +14,20 @@
 </head>
 <body>
 
-<div class="container-fluid" id="stepOneContainer">
+<div class="container-fluid">
     <div class="row">
         <p>Home / Checkout</p><br> <br>
-        <div class="col-md-12 ">
-            <div class="text-center"> <h1>Image</h1> </div><br>
+        <div class="col-xs-4"></div>
+        <div class="col-md-4 ">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="text-center"> <h1>Image</h1> </div>
+                </div>
+            </div>
 
-
-            <div class="form-group" id="deliveryAddress">
-                <div class="panel panel-default">
-                    <div class="panel-heading text-center" id="confirmTimePanel">Your Payment</div>
-
+            <div class="yes-border padded" id="less">
+                <div class="panel">
+                    <div class="panel-heading text-center" style="background-color: #00ABC5" color="white"> Give Your Delivery Address</div>
                 </div>
                 <div class="radio">
                     <label><input type="radio" name="optradio">Cash On Delivery</label>
@@ -45,17 +48,11 @@
                     </p>
                 </div>
             </div>
-            <div class="checkoutBtn text-center" id="deliveryTimeBtn"><h6> NEXT > OREDER REVIEW </h6> </div>
-
-        </div>
-
+            <button class="pull-right btn btn-drugBd margined" style="color: #080808 !important;">NEXT > ORDER REVIEW</button>
     </div>
+    <div class="col-xs-4"></div>
 </div>
 </div>
-
-
-
-
 <script>document.body.style.backgroundColor = "white";</script>
 </body>
 </html>

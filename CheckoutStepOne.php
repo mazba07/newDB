@@ -14,37 +14,55 @@
 </head>
 <body>
 
-<div class="container-fluid" id="stepOneContainer">
-     <div class="row">
+<div class="container-fluid">
+       <div class="row">
          <p>Home / Checkout</p><br> <br>
-        <div class="col-md-12 ">
-            <div class="text-center"> <h1>Image</h1> </div>
+         <div class="col-xs-4"></div>
+        <div class="col-md-4 ">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="location"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 center-block yes-border rectangle"></div>
 
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="timing"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
 
-         <div class="form-group" id="deliveryAddress">
-             <div class="panel panel-info">
-                 <div class="panel-heading panel-heading-custom text-center"> Give Your Delivery Address</div>
-             </div>
-             <input type="text" class="form-control" id="name" placeholder="Your Name"><br>
-             <textarea class="form-control" rows="5" id="Address" placeholder="Address"></textarea><br>
-             <input type="Phone No" class="form-control" id="name" placeholder="Phone No"><br>
-             <select class="form-control" id="area">
-                 <option>Area</option>
-                 <option>2</option>
-                 <option>3</option>
-                 <option>4</option>
-             </select>
-         </div>
-         <div class="checkoutBtn text-center" id="deliveryTimeBtn"><h6> NEXT > DELIVERY TIME </h6> </div>
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="payment"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
 
-         </div>
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2"  id="overview"></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row margined">
+                <div class="col-xs-12">
+                    <div class="yes-border" style="padding: 2%">
+                        <div class="panel panel-info">
+                            <div class="panel-heading panel-heading-custom text-center"> Give Your Delivery Address</div>
+                        </div>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name"><br>
+                        <textarea class="form-control" rows="5" id="Address" placeholder="Address"></textarea><br>
+                        <input type="Phone No" class="form-control" id="name" placeholder="Phone No"><br>
+                        <select class="form-control">
+                            <option>Area</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+
+                    </div>
+                    <button class="pull-right btn btn-drugBd margined">NEXT > DELIVERY TIME</button>
+                </div>
+            </div>
 
         </div>
+           <div class="col-xs-4"></div>
      </div>
-    </div>
-
-
-
+</div>
 
 <script>document.body.style.backgroundColor = "white";</script>
 </body>
