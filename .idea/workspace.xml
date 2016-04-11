@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5f98afb-4314-4f8f-b82e-45ddb75f1b18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckoutStepOne.php" afterPath="$PROJECT_DIR$/CheckoutStepOne.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.php" afterPath="$PROJECT_DIR$/checkout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confirm.php" afterPath="$PROJECT_DIR$/confirm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/new_drugdb.css" afterPath="$PROJECT_DIR$/resources/css/new_drugdb.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_preview.php" afterPath="$PROJECT_DIR$/order_preview.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payment.php" afterPath="$PROJECT_DIR$/payment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_details.php" afterPath="$PROJECT_DIR$/product_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="newDB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +47,8 @@
       <file leaf-file-name="product_details.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product_details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7852976">
-              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.7327888">
+              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -118,7 +110,6 @@
         <option value="$PROJECT_DIR$/contact_us.php" />
         <option value="$PROJECT_DIR$/About Us.php" />
         <option value="$PROJECT_DIR$/resources/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/product_details.php" />
         <option value="$PROJECT_DIR$/confirm.php" />
         <option value="$PROJECT_DIR$/payment.php" />
         <option value="$PROJECT_DIR$/checkout.php" />
@@ -126,6 +117,7 @@
         <option value="$PROJECT_DIR$/resources/css/new_drugdb.css" />
         <option value="$PROJECT_DIR$/CheckoutStepOne.php" />
         <option value="$PROJECT_DIR$/order_preview.php" />
+        <option value="$PROJECT_DIR$/product_details.php" />
       </list>
     </option>
   </component>
@@ -702,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product_details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7852976">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.7327888">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
