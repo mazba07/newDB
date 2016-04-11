@@ -637,12 +637,13 @@ a span.icon4:hover{
     border: solid;
 
 }
-#confirmTimePanel {
-    background: #FF8B10; color: white;
-}
-
-#confirmTimePanel {
-    background: #00ABC5; color: white;
+.place-image-center{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #orderPreview {
@@ -657,6 +658,40 @@ a span.icon4:hover{
     font-size: 1px;
     margin: 5px;
 }
+
+.circle{
+    border-radius: 50%;
+    background-color: #F2F2F2 !important;
+    padding: 7% ;
+    border: 1px solid #C9C8C9;
+}
+
+#location{
+    background: url("../images/checkout%20icon/location.png") no-repeat center;
+}
+
+#timing{
+    background: url("../images/checkout%20icon/timing.png") no-repeat center;
+}
+
+#payment{
+    background: url("../images/checkout%20icon/payment.png") no-repeat center;
+}
+
+#overview{
+    background: url("../images/checkout%20icon/overview.png") no-repeat center;
+}
+
+
+
+
+.rectangle{
+    padding: 0.5%;
+    margin-top: 6.5%;
+    background-color: #F2F2F2 !important;
+    border: 1px solid #C9C8C9;
+}
+
 .bordered-table th,
 .bordered-table td{
     border: 1px solid #ddd;
@@ -664,9 +699,11 @@ a span.icon4:hover{
 
 .btn-drugBd{
     border-radius: 45px;
+    font-size: 63%;
+    font-weight: 900;
     background: #E6BF70; color: white;
-
 }
+
 .radio{
     margin: 2%; !important;
 }
@@ -689,6 +726,14 @@ a span.icon4:hover{
 
 .padded{
     padding:4%;
+}
+
+.padded#less{
+    padding: 1%
+}
+.pad-top-bottom{
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .no-border{
     border: none !important;

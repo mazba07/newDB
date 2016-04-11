@@ -29,7 +29,7 @@
                 <div class="col-xs-12">
                     <div class="yes-border" style="padding: 2%">
                         <div class="panel">
-                            <div class="panel-heading text-center" style="background-color: #FF8B10" color=""white"> Give Your Delivery Address</div>
+                            <div class="panel-heading text-center" <span style="background-color: #FF8B10;color:white"> Give Your Delivery Address</span></div>
                         </div>
                         <p>Order Instructions</p>
                         <textarea class="form-control" rows="5" id="order_instructions" placeholder="Example: Please Call me when you arrive"></textarea><br>

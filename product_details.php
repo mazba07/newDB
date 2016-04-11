@@ -16,10 +16,10 @@
 <body>
     <section class="coontainer table-responsive bordered-table" style="padding: 10%">
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-sm-4 col-md-4">
                 <p>Home / Product / Detail</p><br>
             </div>
-            <div class="col-xs-4">
+            <div class="col-sm-4 col-md-4">
 
                 <table>
                     <tbody>
@@ -42,15 +42,15 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-xs-4">
+            <div class="col-sm-4 col-md-4">
                 <button class="pull-right btn btn-drugBd">PROCEED TO CHECKOUT</button>
             </div>
         </div>
         <div class="row yes-border padded">
-            <div class="col-xs-4 yes-border">
+            <div class="col-sm-4 col-md-4 yes-border">
                 <img src="resources/images/Product%20image/Product01.png" alt="product preview">
             </div>
-            <div class="col-xs-8">
+            <div class="col-sm-8 col-md-4">
                 <h2> <span style="color: #78C5CF">Dextromethorphan</h2></span>
                 <p>
                     TK 90.00 <br><br>

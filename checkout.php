@@ -99,145 +99,127 @@
   </div>
 
 -->
-<div class="container">
-    <div class="row seven-cols">
-        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
-            <div class="staff-photo">
-                <img src="http://placehold.it/150x150.jpg">
-            </div>
 
-            <div class="staff-name">
-                <div class="staff-first-name">
-                    STAFF
-                </div>
-                <div class="staff-second-name">
-                    NAME
-                </div>
-            </div>
 
-            <div class="staff-title">
-                Staff Title and This Text Could Longer Due to Titles
+<div class="container-fluid">
+    <div class="row">
+        <p>Home / Checkout</p><br> <br>
+        <div class="col-md-3 col-sm-6 col-xs-12"></div>
+        <div class="col-xs-6">
+            <div class="row">
+                <div class="panel panel-info">
+                    <div class="panel-heading panel-heading-custom text-center"> Your Order</div>
+                </div>
+            <div class="col-sm-4 col-md-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6" >PICTURE</div>
+                    <div class="col-sm-12 col-md-6" >PRODUCT</div>
+                </div>
             </div>
+            <div class="col-sm-4 col-md-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6" >QTY</div>
+                    <div class="col-sm-12 col-md-6" >PRICE</div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6" >TOTAL</div>
+                    <div class="col-sm-12 col-md-6" >ACTION</div>
+                </div>
+            </div>
+            </div><hr>
+            <!--   PRODUCTS TABLE -->
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" ><img alt="1 Image Preview" src="http://lorempixel.com/140/140" width= "95"/></div>
+                        <div class="col-sm-12 col-md-6" >Traneta</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" >1</div>
+                        <div class="col-sm-12 col-md-6" >Tk 75.00</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" >Tk 75.00</div>
+                        <div class="col-sm-12 col-md-6 text-center" ><img alt="trash-bin" src="resources/images/checkout%20icon/trash.png"></div>
+                        <!--<div class="col-sm-12 col-md-6 fa fa-trash-o text-center" style=" font-size: 1.5em;"></div>-->
+                    </div>
+                </div>
+            </div><hr>
+            <!-- END OF PRODUCTS TABLE -->
+
+            <!--CALCULATION -->
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" ></div>
+                        <div class="col-sm-12 col-md-6" > </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" > </div>
+                        <div class="col-sm-12 col-md-6" <span style="border-bottom: 1px solid #ddd;">Subtotal</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" <span style="border-bottom: 1px solid #ddd;">Tk 150.00</div>
+                        <div class="col-sm-12 col-md-6" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" ></div>
+                        <div class="col-sm-12 col-md-6" ></div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" ></div>
+                        <div class="col-sm-12 col-md-6" <span style="border-bottom: 1px solid #ddd;">Delivery Charges</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" <span style="border-bottom: 1px solid #ddd;">Tk 50.00</div>
+                        <div class="col-sm-12 col-md-6 "></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" ></div>
+                        <div class="col-sm-12 col-md-6" ></div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" ></div>
+                        <div class="col-sm-12 col-md-6" <span style="border-bottom: 1px solid #ddd;">Net</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" <span style="border-bottom: 1px solid #ddd;">Tk 200.00</div>
+                        <div class="col-sm-12 col-md-6 "></div>
+                    </div>
+                </div>
+            </div>
+<button class="pull-right btn btn-drugBd margined">PROCEED TO CHECKOUT</button>
         </div>
-
-        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
-            <div class="staff-photo">
-                <img src="http://placehold.it/150x150.jpg">
-            </div>
-
-            <div class="staff-name">
-                <div class="staff-first-name">
-                    STAFF
-                </div>
-                <div class="staff-second-name">
-                    NAME
-                </div>
-            </div>
-
-            <div class="staff-title">
-                Staff Title and This Text Could Longer Due to Titles
-            </div>
-        </div>
-
-        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
-            <div class="staff-photo">
-                <img src="http://placehold.it/150x150.jpg">
-            </div>
-
-            <div class="staff-name">
-                <div class="staff-first-name">
-                    STAFF
-                </div>
-                <div class="staff-second-name">
-                    NAME
-                </div>
-            </div>
-
-            <div class="staff-title">
-                Staff Title and This Text Could Longer Due to Titles
-            </div>
-        </div>
-
-        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
-            <div class="staff-photo">
-                <img src="http://placehold.it/150x150.jpg">
-            </div>
-
-            <div class="staff-name">
-                <div class="staff-first-name">
-                    STAFF
-                </div>
-                <div class="staff-second-name">
-                    NAME
-                </div>
-            </div>
-
-            <div class="staff-title">
-                Staff Title and This Text Could Longer Due to Titles
-            </div>
-        </div>
-
-        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
-            <div class="staff-photo">
-                <img src="http://placehold.it/150x150.jpg">
-            </div>
-
-            <div class="staff-name">
-                <div class="staff-first-name">
-                    STAFF
-                </div>
-                <div class="staff-second-name">
-                    NAME
-                </div>
-            </div>
-
-            <div class="staff-title">
-                Staff Title and This Text Could Longer Due to Titles
-            </div>
-        </div>
-
-        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
-            <div class="staff-photo">
-                <img src="http://placehold.it/150x150.jpg">
-            </div>
-
-            <div class="staff-name">
-                <div class="staff-first-name">
-                    STAFF
-                </div>
-                <div class="staff-second-name">
-                    NAME
-                </div>
-            </div>
-
-            <div class="staff-title">
-                Staff Title and This Text Could Longer Due to Titles
-            </div>
-        </div>
-
-        <div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
-            <div class="staff-photo">
-                <img src="http://placehold.it/150x150.jpg">
-            </div>
-
-            <div class="staff-name">
-                <div class="staff-first-name">
-                    STAFF
-                </div>
-                <div class="staff-second-name">
-                    NAME
-                </div>
-            </div>
-
-            <div class="staff-title">
-                Staff Title and This Text Could Longer Due to Titles
-            </div>
-        </div>
-
-
-
+    <div class="col-md-3 col-sm-6 col-xs-12"></div>
     </div>
 </div>
+
 
 
 

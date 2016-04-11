@@ -20,12 +20,25 @@
          <div class="col-xs-4"></div>
         <div class="col-md-4 ">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="text-center"> <h1>Image</h1> </div>
+                <div class="col-xs-12 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="location"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 center-block yes-border rectangle"></div>
+
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="timing"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
+
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="payment"></div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
+
+                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2"  id="overview"></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+                    </div>
+
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row margined">
                 <div class="col-xs-12">
                     <div class="yes-border" style="padding: 2%">
                         <div class="panel panel-info">
