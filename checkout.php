@@ -16,10 +16,10 @@
 
 
 
-  <div class="container-fluid" id="checkout1Container">
+  <div class="container-fluid table-responsive" id="checkout1Container">
    <div class="row">
     <div class="col-md-12">
-        <div class="table-responsive" style="padding: 100px;">
+        <div class="" style="padding: 10%;">
             <p>Home / Checkout</p><br>
             <div class="panel panel-info">
                 <div class="panel-heading panel-heading-custom text-center"> Your Order</div>
