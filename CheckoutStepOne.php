@@ -18,21 +18,19 @@
        <div class="row">
          <p>Home / Checkout</p><br> <br>
          <div class="col-xs-4"></div>
-        <div class="col-md-4 ">
+        <div class="col-md-4 col-xs-12">
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-sm-12">
-                    <div class="row">
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="location"></div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 center-block yes-border rectangle"></div>
-
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="timing"></div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
-
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="payment"></div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
-
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2"  id="overview"></div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+                    <div class="col-xs-12 col-md-12 col-sm-12 text center golok">
+                        <div class="gol">
+                            <div><img src="resources/images/checkout_icon/location-circle.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/timing.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/payment.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/overview.png" /></div>
+                        </div>
                     </div>
 
                 </div>

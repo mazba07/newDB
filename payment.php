@@ -20,12 +20,23 @@
         <div class="col-xs-4"></div>
         <div class="col-md-4 ">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="text-center"> <h1>Image</h1> </div>
+                <div class="col-xs-12 col-md-12 col-sm-12">
+                    <div class="col-xs-12 col-md-12 col-sm-12 text center golok">
+                        <div class="gol">
+                            <div><img src="resources/images/checkout_icon/location-circle.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/timing.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/payment.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/overview.png" /></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <div class="yes-border padded" id="less">
+            <div class="yes-border padded margined" id="less">
                 <div class="panel">
                     <div class="panel-heading text-center" style="background-color: #00ABC5" color="white"> Give Your Delivery Address</div>
                 </div>
