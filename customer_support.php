@@ -22,7 +22,7 @@
             <div class="modal-content modal-drugbd">
 
                 <div class="modal-body">
-                    <img src="resources/icons/RxHover.png" class="img-responsive" width="50"/></a><hr>
+                    <img src="resources/icons/RxHover.png" class="img-responsive center-block" width="50"/></a><hr>
                     <h5> ajsdkbadsfhdsuyhfksbdjfghsoygvhdsfjhaj<br>
                         sdkbadsfhdsuyhfksbdjfghsoygvhdsfjhasdsd<br>
                         ajsdkbadsfhdsuyhfksbdjfghsoygvhdsfjhajs<br>
