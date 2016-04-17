@@ -54,8 +54,9 @@
                 <h2> <span style="color: #78C5CF">Dextromethorphan</h2></span>
                 <p>
                     TK 90.00 <br><br>
-                    <span style="font-weight: 900">Availability: </span> In Stock <br><br>
-                    <b >Company: </b> Beximco
+                    <span style="font-weight:bold;">Availability:</span> In Stock <br><br>
+                    <strong >Company: </strong> Beximco <br><br>
+                    <b>Generic Name: </b> Dextromethorphan
                 </p>
             </div>
 

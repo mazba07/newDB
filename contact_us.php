@@ -51,6 +51,14 @@
                         </div><button type="button" class="btn btn-drugBd pull-right">Send Message</button>
                     </div>
 
+<<<<<<< HEAD
+=======
+        <div class="col-xs-5">
+            <div class="form-group">
+                <textarea class="form-control" rows="5" id="message" placeholder="Message"></textarea>
+            </div><button type="button" class="btn btn-drugBd pull-right">SEND MESSAGE</button>
+        </div>
+>>>>>>> origin/master
 
                     <div class="col-xs-4">
 

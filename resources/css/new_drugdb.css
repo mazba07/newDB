@@ -632,11 +632,51 @@ a span.icon4:hover{
 
 /* CHECKOUT PAGE */
 
-.panel-info > .panel-heading-custom {
-    background: #78C5CF; color: white;
-    border: solid;
+/* Gol gol Navigation pics */
+
+.golok{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.gol{
+    margin-top: 100px;
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.gol div{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
 
 }
+.connect{
+    height: 10px;
+    background: #F2F2F2;
+    width: 60px;
+}
+@media(max-width: 992px){
+    .gol div{
+        display:block;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: middle;
+    }
+    .connect{
+        height: 60px;
+        background: #F2F2F2;
+        width: 10px;
+    }
+}
+
+
+
+.panel-info > .panel-heading-custom {
+    background: #78C5CF; color: white;
+  }
+
 .place-image-center{
     position: absolute;
     margin: auto;
@@ -646,51 +686,17 @@ a span.icon4:hover{
     bottom: 0;
 }
 
-#orderPreview {
-    background: #81DB66; color: white;
-
-}
-
-.checkoutBtn{
-    border-radius: 45px;
-    background: #E6BF70; color: white;
-    padding: 5% ;
-    font-size: 1px;
-    margin: 5px;
-}
-
 .circle{
     border-radius: 50%;
-    background-color: #F2F2F2 !important;
-    padding: 7% ;
-    border: 1px solid #C9C8C9;
+    padding: 10px ;
+    background-color: #BCBCBC;
+    display: table-cell;
 }
 
-#location{
-    background: url("../images/checkout%20icon/location.png") no-repeat center;
+.img-no-border{
+    border:0;
 }
 
-#timing{
-    background: url("../images/checkout%20icon/timing.png") no-repeat center;
-}
-
-#payment{
-    background: url("../images/checkout%20icon/payment.png") no-repeat center;
-}
-
-#overview{
-    background: url("../images/checkout%20icon/overview.png") no-repeat center;
-}
-
-
-
-
-.rectangle{
-    padding: 0.5%;
-    margin-top: 6.5%;
-    background-color: #F2F2F2 !important;
-    border: 1px solid #C9C8C9;
-}
 
 .bordered-table th,
 .bordered-table td{
@@ -701,8 +707,37 @@ a span.icon4:hover{
     border-radius: 45px;
     font-size: 63%;
     font-weight: 900;
-    background: #E6BF70; color: white;
+    background: #86CCD4; color: #080808;
 }
+
+/*Customer Support */
+
+.modal-drugbd{
+    background-color: #86CCD4;
+    color: whitesmoke;
+}
+
+.customer_support_navbar {
+
+    background-color: whitesmoke;
+    border-right: 2px solid #00ABC5;
+}
+
+.customer_support_navbar li{
+    padding: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
+.customer_support_navbar li:hover{
+    color: #86CCD4 !important;
+}
+
+
+
+
+
+
 
 .radio{
     margin: 2%; !important;
@@ -814,7 +849,6 @@ p{
 img{
     max-width: 100%;
 }
-
 
 
 /*Contact Us*/

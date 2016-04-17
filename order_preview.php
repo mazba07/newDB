@@ -19,19 +19,15 @@
         <p>Home / Checkout</p><br> <br>
         <div class="col-md-4 col-md-offset-4 col-xs-12">
             <div class="row">
-                <div class="col-xs-12 col-md-12 col-sm-12">
-                    <div class="row margined">
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="location"></div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 center-block yes-border rectangle"></div>
-
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="timing"></div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
-
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2" id="payment"></div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 yes-border rectangle"></div>
-
-                        <div class="circle col-lg-2 col-md-2 col-sm-2 col-xs-2"  id="overview"></div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+                <div class="col-xs-12 col-md-12 col-sm-12 text center golok">
+                    <div class="gol">
+                        <div><img src="resources/images/checkout_icon/location-circle.png" /></div>
+                        <div><img class="connect" /></div>
+                        <div><img src="resources/images/checkout_icon/timing.png" /></div>
+                        <div><img class="connect" /></div>
+                        <div><img src="resources/images/checkout_icon/payment.png" /></div>
+                        <div><img class="connect" /></div>
+                        <div><img src="resources/images/checkout_icon/overview.png" /></div>
                     </div>
                 </div>
             </div>
@@ -72,7 +68,7 @@
                         <p>Tk 150.00</p>
                         <p>Tk 50.00</p><hr>
                         <p>Tk 200.00</p>
-                        <button class="btn btn-drugBd" style="color: #080808 !important;">CONFIRM ORDER</button>
+                        <button class="btn btn-drugBd pull-right" style="color: #080808 !important;">CONFIRM ORDER</button>
                     </div>
                 </div>
             </div>

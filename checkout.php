@@ -110,10 +110,10 @@
 
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row" style="vertical-align: middle; text-align: center;">
         <p>Home / Checkout</p><br> <br>
-        <div class="col-md-3 col-sm-6 col-xs-12"></div>
-        <div class="col-xs-6">
+
+        <div class="col-md-6 col-md-offset-3  col-xs-12 yes-border" style="padding-right: 2%; padding-left: 2%;padding-top: 1%; padding-bottom: 1% " >
             <div class="row">
                 <div class="panel panel-info">
                     <div class="panel-heading panel-heading-custom text-center"> Your Order</div>
@@ -138,6 +138,30 @@
             </div>
             </div><hr>
             <!--   PRODUCTS TABLE -->
+            <div class="row" >
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" ><img alt="1 Image Preview" src="http://lorempixel.com/140/140" width= "95"/></div>
+                        <div class="col-sm-12 col-md-6" >Traneta</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" >1</div>
+                        <div class="col-sm-12 col-md-6" >Tk 75.00</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6" >Tk 75.00</div>
+                        <div class="col-sm-12 col-md-6 text-center" ><img alt="trash-bin" src="resources/images/checkout_icon/trash.png"></div>
+                        <!--<div class="col-sm-12 col-md-6 fa fa-trash-o text-center" style=" font-size: 1.5em;"></div>-->
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
             <div class="row">
                 <div class="col-sm-4 col-md-4">
                     <div class="row">
@@ -154,7 +178,7 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="row">
                         <div class="col-sm-12 col-md-6" >Tk 75.00</div>
-                        <div class="col-sm-12 col-md-6 text-center" ><img alt="trash-bin" src="resources/images/checkout%20icon/trash.png"></div>
+                        <div class="col-sm-12 col-md-6 text-center" ><img alt="trash-bin" src="resources/images/checkout_icon/trash.png"></div>
                         <!--<div class="col-sm-12 col-md-6 fa fa-trash-o text-center" style=" font-size: 1.5em;"></div>-->
                     </div>
                 </div>
@@ -222,9 +246,9 @@
                     </div>
                 </div>
             </div>
-<button class="pull-right btn btn-drugBd margined">PROCEED TO CHECKOUT</button>
+        <button class="pull-right btn btn-drugBd margined">PROCEED TO CHECKOUT</button>
         </div>
-    <div class="col-md-3 col-sm-6 col-xs-12"></div>
+
     </div>
 </div>
 

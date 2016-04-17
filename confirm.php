@@ -20,22 +20,40 @@
         <div class="col-xs-4"></div>
         <div class="col-md-4 ">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="text-center"> <h1>Image</h1> </div>
+                <div class="col-xs-12 col-md-12 col-sm-12">
+                    <div class="col-xs-12 col-md-12 col-sm-12 text center golok">
+                        <div class="gol">
+                            <div><img src="resources/images/checkout_icon/location-circle.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/timing.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/payment.png" /></div>
+                            <div><img class="connect" /></div>
+                            <div><img src="resources/images/checkout_icon/overview.png" /></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row margined">
                 <div class="col-xs-12">
                     <div class="yes-border" style="padding: 2%">
                         <div class="panel">
-                            <div class="panel-heading text-center" <span style="background-color: #FF8B10;color:white"> Give Your Delivery Address</span></div>
+                            <div class="panel-heading text-center" <span style="background-color: #FF8B10;color:white"> Confirm Delivery Timings</span></div>
                         </div>
-                        <p>Order Instructions</p>
+
+                        <label class="control-label">Order Instructions</label>
                         <textarea class="form-control" rows="5" id="order_instructions" placeholder="Example: Please Call me when you arrive"></textarea><br>
-                        <p>When would you like your regular items?</p>
-                        <input type="date" class="form-control fa fa-calendar pull-right" id="date" placeholder="Date: 6/5/2016"><br>
-                        <p>When would you like the items to be delievered?</p>
+
+
+                        <div class="form-group has-feedback">
+                            <label class="control-label">When would you like your regular items?</label>
+                            <input type="text" class="form-control" placeholder="Date: 6/6/2016" />
+                            <i class="fa fa-calendar form-control-feedback"></i>
+                        </div>
+
+                        <label class="control-label"> When would you like the items to be delievered?</label>
                         <select class="form-control" id="time">
                             <option>8:00AM - 9:00AM</option>
                             <option>2</option>
@@ -44,7 +62,7 @@
                         </select>
 
                     </div>
-                    <button class="pull-right btn btn-drugBd margined" style="color: #080808 !important;">NEXT > DELIVERY TIME</button>
+                    <button class="pull-right btn btn-drugBd margined"> NEXT > PAYMENT METHODS</button>
                 </div>
             </div>
 
