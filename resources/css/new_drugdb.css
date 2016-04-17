@@ -710,6 +710,8 @@ a span.icon4:hover{
     background: #86CCD4; color: #080808;
 }
 
+/*Customer Support */
+
 .modal-drugbd{
     background-color: #86CCD4;
     color: whitesmoke;
@@ -726,6 +728,16 @@ a span.icon4:hover{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: large;
 }
+
+.customer_support_navbar li:hover{
+    color: #86CCD4 !important;
+}
+
+
+
+
+
+
 
 .radio{
     margin: 2%; !important;

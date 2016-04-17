@@ -16,66 +16,47 @@
 
 
 <section class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12 col-lg-10 col-sm-12 col-lg-offset-1"  style="margin-top: 50px;">
-            <p>Home / Returns</p><br>
-
-            <h3> Returns</h3>
-            <p>
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                <br>
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-            </p>
-
-            <br>
-            <h3> Meet the leaders! </h3>
-            <br>
-            <p>Alif Chowdhury, Co-founder</p>
-
-            <p>
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                <br>
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-            </p>
-
-            <br>
-            <p>Reza E Ahmed, CEO</p>
-
-            <p>
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                <br>
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-                AsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkbAsdjkgeqwygjhdsgfiudshvsdhiosdhfhbdsfjkb
-            </p>
 
 
+<div class="row">
+    <div class="col-xs-12 col-lg-10 col-sm-12"  style="margin-top: 50px;">
+        <p>Home / Returns</p><br>
 
+        <h3> Returns</h3> <hr>
+        <p> Please complete the form below to request returns</p><br>
+    </div>
+</div>
+<div class="row">
+<div class="col-md-3 col-md-offset-2 col-xs-12">
 
-
+    <form role="form">
+        <div class="form-group">
+            <input type="text" placeholder="Name" class="form-control" style="border-radius: 25px" >
         </div>
-</section>
+        <div class="form-group">
+            <input type="text" placeholder="Email" class="form-control" style="border-radius: 25px" >
+        </div>
 
-
-
-
+    </form>
+</div>
+<div class="col-md-3 col-xs-12">
+    <form role="form">
+        <div class="form-group">
+            <input type="text" placeholder="Order Id" class="form-control" style="border-radius: 25px" >
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Mobile" class="form-control" style="border-radius: 25px" >
+        </div>
+    </form>
+</div>
+<div class="col-md-3 col-xs-12">
+     <form role="form">
+         <div class="form-group">
+             <input type="text" placeholder="Order Date" class="form-control" style="border-radius: 25px" >
+         </div>
+     </form>
+</div>
+</div>
 
 <script>document.body.style.backgroundColor = "white";</script>
 </body>
